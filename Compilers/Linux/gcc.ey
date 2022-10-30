@@ -24,7 +24,8 @@ Parser-Vars:
   searchdirs-end: "End of search list."
 
 EXE-Vars:
-  resources: $exe
+  resources: linux/enigma/src/main/assets/resources.pak
+  resources_in: resources.pak
   Build-Extension:
   Run-output: $tempfile
   Run-Program: $game
