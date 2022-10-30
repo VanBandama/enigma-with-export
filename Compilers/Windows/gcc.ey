@@ -25,7 +25,9 @@ Parser-Vars:
   searchdirs-end: "End of search list."
 
 EXE-Vars:
-  resources: $exe
+
+  resources: windows/enigma/src/main/assets/resources.pak
+  resources_id: resources.pak
   Build-Extension: .exe
   Run-output: $tempfile
   Run-Program: $game
